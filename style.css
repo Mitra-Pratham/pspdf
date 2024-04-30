@@ -1,0 +1,34 @@
+body {
+    overflow: hidden;
+}
+html, body, h1, h2, h3, h4, h5, h6, p {
+    font-family: sans-serif;
+    margin: 0px;
+}
+#container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3rem;
+    gap: 1rem;
+}
+#pspdfkit {
+    width: 100%;
+    height: calc(100vh - 240px);
+    border: 1px solid #ddd;
+}
+#openSesame {
+    background-color: rgba(0, 0, 255, 0.05);
+    font-size: 1rem;
+    color: blue;
+    cursor: pointer;
+    padding: 0.75em 1em;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 8px;
+    transition: all 0.3s ease 0s;
+}
+#openSesame:hover {
+    background-color: rgba(0, 0, 255, 0.2);
+}
